@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Assignment", "Assignment\As
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlayWrightPOM", "PlayWrightPOM\PlayWrightPOM.csproj", "{28B5B0F0-26F9-496C-8A28-3C2777A525E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayWrightAPI", "PlayWrightAPI\PlayWrightAPI.csproj", "{BDDC8597-13DD-4153-80BB-B55D9A92BBB6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlayWrightAPI", "PlayWrightAPI\PlayWrightAPI.csproj", "{BDDC8597-13DD-4153-80BB-B55D9A92BBB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaseStudyPW", "CaseStudyPW\CaseStudyPW.csproj", "{4824993B-F20E-493A-B9E0-F307003976FC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{BDDC8597-13DD-4153-80BB-B55D9A92BBB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BDDC8597-13DD-4153-80BB-B55D9A92BBB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BDDC8597-13DD-4153-80BB-B55D9A92BBB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4824993B-F20E-493A-B9E0-F307003976FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4824993B-F20E-493A-B9E0-F307003976FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4824993B-F20E-493A-B9E0-F307003976FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4824993B-F20E-493A-B9E0-F307003976FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

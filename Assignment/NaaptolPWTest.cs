@@ -25,7 +25,12 @@ namespace Assignment
             await Console.Out.WriteLineAsync("Typed");
             await Page.Locator("(//input[@value='search'])[2]").ClickAsync();
             await Console.Out.WriteLineAsync("searched");
+            await Expect(Page).ToHaveTitleAsync("Welcome to naaptol :- Search Result for eyewear");
 
+            await Page.ClickAsync(selector: "#productItem1");
+            await Console.Out.WriteLineAsync("product clicked");
+
+            await Expect(Page.Locator(selector: "text='Product Code: 12612079'")).ToBeVisibleAsync();
         }
     }
 }
